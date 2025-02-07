@@ -1,0 +1,38 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Ensure that the content is responsive */
+.tag {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Make sure the jigsaw puzzle takes up the full width */
+.jigsaw-puzzle {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Optional: Ensure puzzle pieces adjust to the screen */
+.jigsaw-puzzle > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
