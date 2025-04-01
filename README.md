@@ -2,7 +2,6 @@
 
 Welcome to **TimSophOne**, a lighthearted and interactive jigsaw puzzle game with a surprise romantic twist. Built with React, this app blends fun and feels into one sweet little package.
 
-![Puzzle Preview](./src/assets/puzzle.png)
 
 ## 🧩 What is it?
 
